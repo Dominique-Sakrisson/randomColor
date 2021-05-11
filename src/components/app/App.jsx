@@ -1,8 +1,8 @@
 import React from 'react';
-import Display from '../color/Display.jsx';
+import ColorGen from '../../containers/ColorGen.jsx';
 
 export default function App() {
   return(
-  <Display color={'#FF0000'}/>
+  <ColorGen />
   )
 }
